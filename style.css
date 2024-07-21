@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*************************************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/*--------------------------------------------------*/
+
+
+nav{
+    background-color: #303F9F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 10px;
+    position: fixed;
+    box-sizing: border-box;
+
+}
+.nav-resposnive-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: inherit;
+}
+#nav-menu-btn{
+    display: none;
+}
+.home-nav-sub1{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.home-nav-sub1 .home-nav-sub1-pic{
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+    background-image: url("cimfr_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-nav-sub2{
+    display: flex;
+}
+.home-nav-sub2 .nav-links{
+    margin: 0px 10px;
+    border-bottom: 2px solid transparent;
+}
+.home-nav-sub2 a{
+    color: white;
+    text-decoration: none;
+}
+.home-nav-sub2 .nav-links:hover{
+    border-bottom: 2px solid white;
+}
+.home-nav-sub1 a{
+    color: white;
+    text-decoration: none;
+}
+/*-------------------------------------------------------*/
+.home-sec1{
+     height: 500px;
+    background-image: url("cimfr_gh.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-sec1-blur{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(44, 44, 44, 0.552);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-sec1-blur-cont{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.home-sec1-blur-cont-pic{
+    height: 70px;
+    width:70px;
+    margin-right:20px;
+    background-image: url("cimfr_logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-sec1-blur-cont-write{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+.home-sec1-blur-cont-write span{
+    font-size: 24px;
+    font-weight: 300;
+}
+/*-----------------------------------------------*/
+.home-sec2{
+    padding: 50px;
+
+}
+/*---------------------------------------------------*/
+.home-sec3{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-sec3a{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 20px 50px 20px;
+    /*border: 1px solid green;*/
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.home-sec3a button{
+    padding: 5px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #7d8ada;
+    border: 0px;
+    border-radius: 5px;
+}
+.home-sec3a button:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+.home-sec3b{
+    height: 300px;
+    width: 400px;
+    background-image: url("apartment-book-pic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*----------------------------------------------------------------*/
+.home-sec4{
+    padding: 50px;
+}
+/*----------------------------------------------------------------*/
+.home-sec5{
+    padding: 50px;
+    background-color: #e7eaff;
+}
+/*-----------------------------------------------------------------*/
+.home-sec6{
+    padding: 50px;
+}
+.wrapper_feechart{
+    min-width: 300px;
+    padding: 0px 0px 30px 0px;
+    overflow: scroll;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.wrapper_feechart::-webkit-scrollbar{
+    display: none;
+}
+.wrapper_feechart table{
+    /*border: 1px solid rgb(215, 215, 215);*/
+}
+.wrapper_feechart table tr th{
+    text-align: left;
+    padding: 2px 10px 2px 10px;
+    background-color: #7d8ada;
+    color: white;
+}
+.wrapper_feechart table tr td{
+    padding: 5px 0px 5px 10px;
+}
+/*-------------------------------------------------------------*/
+/*----------------MOVING IMAGES SECTION--------------------*/
+.moving-imgs-wrapper{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.moving-img{
+    height: 500px;
+    width: 100%;
+}
+#moving-img1{
+    background-image: url("guesthouse1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#moving-img2{
+    background-image: url("guesthouse2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#moving-img3{
+    background-image: url("satkar\ guesthouse\ img.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#moving-img4{
+    background-image: url("cimfr_gh.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#moving-img5{
+    background-image: url("guesthouse2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+#moving-img6{
+    background-image: url("satkar\ guesthouse\ img.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+/*---------------------------------------------------------*/
+/******************************CONTACT US PAGE*****************************/
+.contact-wrapper{
+    padding: 100px 50px 50px 50px;
+}
+.contact-sec1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin: 0px 0px 100px 0px;
+    padding: 30px 0px;
+    background-color: #e7eaff;
+}
+.contact-sec1a{
+    padding: 10px;
+}
+.contact-sec1b{
+    padding: 10px;
+}
+.contact-sec1 input{
+    height: 37px;
+    width: 300px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border: none;
+}
+.contact-pic{
+    height: 300px;
+    width: 300px;
+    background-image: url("contact-pic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contact-sec1 textarea{
+    width: 300px;
+    height: 120px;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.contact-sec2{
+    width: 91vw;
+}
+.contact-sec2 iframe{
+    width: inherit;
+}
+#contact-send-id{
+    background-color: #7d8ada;
+    color: white;
+    margin-top: 10px;
+}
+#contact-send-id:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+/*********************CHECK BOOKING STATUS PAGE***********************/
+
+.checkstatus-wrapper{
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
+}
+.checkstatus-wrapper form input{
+    height: 37px;
+    width: 300px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.checkstatus-wrapper form{
+    border-top: 5px solid #444cf7;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#checkstatus-button-id{
+    background-color: #7d8ada;
+    color: white;
+    outline: none;
+    border: none;
+}
+#checkstatus-button-id:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+.status-msg{
+    /*border: 1px solid rgb(206, 204, 204);*/
+    margin-top: 30px;
+    padding: 20px 10px;
+    overflow-x: scroll;
+    background-color: #e7eaff;
+}
+.status-msg::-webkit-scrollbar{
+    display: none;
+}
+.status-msg table{
+    width: 1100px;
+    margin: auto;
+}
+.status-msg table th{
+    padding: 5px 25px 15px 0px;
+    text-align: left;
+    
+}
+/***************************FOOTER********************************/
+footer{
+    padding: 50px 20px;
+    background-color: #303F9F;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer-links-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-link{
+    margin: 0px 10px;
+}
+.footer-link:hover{
+    color: rgb(220, 220, 220);
+}
+.footer-logo{
+    height: 36px;
+    width: 36px;
+    background-image: url("cimfr_logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.footer-logo-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/***********************ACCOMMODATION BOOKING PAGE*********************/
+
+.booking-sec1{
+    padding: 50px 50px;
+}
+.booking-sec1-subwrapper1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.booking-sec1a,.booking-sec1b{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-top: 5px solid #444cf7;
+}
+.booking-sec1 form input{
+    margin-bottom: 15px;
+    height: 37px;
+    width: 300px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.booking-sec1 form select{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 37px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.booking-sec1 form span{
+    color: red;
+}
+.guest-detail{
+    padding: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-top: 5px solid #444cf7;
+    margin: 10px;
+}
+.booking-sec1-subwrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 20px 0px ;
+}
+#booking-form-submit-id{
+    background-color: #7d8ada;
+    color: white;
+    border: none;
+    outline: none;
+}
+#booking-form-submit-id:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+
+/**********************************************************/
+/*********************ADMIN LOGIN PAGE*******************/
+.admin-login-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #303F9F;
+}
+.admin-login{
+    border: 1px solid grey;
+    padding: 50px 20px;
+    background-color: white;
+}
+.admin-login-body form input{
+    height: 37px;
+    width: 300px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+#admin-login-btn{
+    background-color: #7d8ada;
+    color: white;
+    outline: none;
+    border: none;
+}
+#admin-login-btn:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+#admin-logout-btn{
+    padding: 0px 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#nav-limk-border{
+    border-bottom: 2px solid white;
+}
+/*---------------------ADMIN DASHBOARD-----------------------*/
+.admin-dashboard-main-wrapper{
+    max-width: 750px;
+    margin: auto;
+}
+.admin-dashboard-main-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.admin-dashboard-content-wrapper{
+    padding: 120px 20px 100px 20px;
+}
+.admin-dashboard-content{
+    min-width: 280px;
+    max-width: 700px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.admin-dashboard-content2{
+    height: 250px;
+}
+.admin-dashboard-content1{
+    display: flex;
+    box-sizing: border-box;
+}
+.admin-dashboard-content1a,.admin-dashboard-content1b{
+    margin: 0px 10px;
+    height: 250px;
+    width: 50%;
+    border-radius: 10px;
+}
+.admin-dashboard-content1a,.admin-dashboard-content1b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.admin-dashboard-content2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.admin-dashboard-content1a-pic, .admin-dashboard-content2-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-dashboard-content1a-write, .admin-dashboard-content2-write{
+    font-size: 21px;
+}
+.admin-dashboard-content1a-pic1{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+}
+.admin-dashboard-content1a-pic2{
+    background-color: white;
+}
+.admin-dashboard-body{
+    background-color: #e7eaff;
+}
+.admin-dashboard-pic-outer{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.admin-dashboard-content2-pic{
+    background-color: white;
+}
+.admin-dashboard-pic-outer1{
+    background-color: deepskyblue;
+}
+.admin-dashboard-pic-outer2{
+    background-color: mediumpurple;
+}
+.admin-dashboard-pic-outer3{
+    background-color: mediumturquoise;
+}
+.admin-dashboard-content-hover:hover{
+    box-shadow: 1px 1px 20px 1px #bfc7fa;
+}
+/*------------------------ADMIN-NOTICE------------------------*/
+.admin-notice-sec1{
+    padding: 120px 20px 50px 20px;
+    min-width: 280px;
+    max-width: 600px;
+    height: inherit;
+    margin: auto;
+}
+.admin-notice-sec1-write{
+    /*height: 250px;*/
+    background-color: #e7eaff;
+    min-width: 270px;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+.admin-notice-sec1-display{
+    min-width: 270px;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+.admin-notice-sec1-write textarea{
+    height: 100px;
+    width: 300px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    padding: 5px 0px 0px 5px;
+}
+.admin-notice-sec1-write input{
+    height: 37px;
+    width: 300px;
+    margin: 10px 0px;
+}
+#add-notice-btn{
+    background-color: #7d8ada;
+    color: white;
+    outline: none;
+    border: none;
+}
+#add-notice-btn:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+.notice-displaying{
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    background-color: aliceblue;
+}
+.notice-displaying-delete{
+    margin-top: 10px;
+    border: 1px solid red;
+    height: 25px;
+    width: 25px;
+    background-image: url("https://img.icons8.com/material-outlined/24/FFFFFF/filled-trash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 88, 88);
+    box-sizing: border-box;
+}
+.notice-displaying-delete:hover{
+    background-color: red;
+    cursor: pointer;
+}
+/*---------------------ADMIN-MESSAGE---------------------------*/
+.admin-message-sec1{
+    padding: 120px 50px 50px 50px;
+}
+.admin-message-sort-wrap{
+    margin-bottom: 20px;
+}
+.admin-message-sort-wrap input{
+    margin-right: 15px;
+}
+.admin-message-sort-wrap .apply_button{
+    padding: 0px 5px;
+    background-color: #7d8ada;
+    color: white;
+    outline: none;
+    border: none;
+}
+.admin-message-sort-wrap .apply_button:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+.admin-message-content-wrapper{
+    max-height: 600px;
+    overflow: scroll;
+    padding: 10px;
+}
+.admin-message-content-wrapper table{
+    max-width: 1000px;
+}
+.admin-message-content-wrapper table th{
+    padding: 5px 25px 10px 5px;
+    text-align: left;
+    background-color: #7d8ada;
+    color: white;
+}
+.admin-message-content-wrapper table td{
+    padding: 5px 25px 10px 0px;
+    min-width: 200px;
+}
+.admin-message-content-wrapper table a{
+    background-color: lightseagreen;
+    color: white;
+    padding: 2px 5px;
+    outline: none;
+    text-decoration: none;
+}
+.admin-message-content-wrapper table a:hover{
+    background-color: rgb(36, 196, 188);
+    cursor: pointer;
+}
+/*---------------------------------------------------------------*/
+.admin-application-wrapper{
+    padding: 120px 20px 50px 20px;
+}
+.admin-application-sub-wrapper{
+    max-height: 600px;
+    overflow: scroll;
+}
+.admin-application-sub-wrapper table{
+    width: 1400px;
+}
+.admin-application-sub-wrapper table tr{
+    border-bottom: 1px solid grey;
+}
+.admin-application-sub-wrapper table tr th{
+    text-align: left;
+    min-width: 120px;
+    padding: 5px;
+    background-color: #7d8ada;
+    color: white;
+}
+.admin-application-sub-wrapper table tr td{
+    padding: 5px;
+}
+.admin-application-sub-wrapper table tr td #application-approve-btn{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.admin-application-sub-wrapper table tr td #application-reject-btn{
+    background-color: red;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.admin-application-sub-wrapper table tr td #application-prov-btn{
+    background-color: purple;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.admin-application-sub-wrapper table tr td form textarea{
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+/*-----------------------CAPTCHA------------------------*/
+.captcha-wrapper-accomodation-booking{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); 
+}
+.captcha-display{
+    height: 37px;
+    width: 300px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.captcha-print{
+    height: 37px;
+    width: 300px;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#captcha_value_inserted_id{
+    width: 300px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+#hidden_input{
+    display: none;
+}
+/*------------------------------------------------------*/
+/*-------------------------REJECT REMARKS----------------------------*/
+.admin-application-reject-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(19, 66, 221, 0.759);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-application-reject-wrapper{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-color: white;
+}
+.admin-application-reject-wrapper textarea{
+    height: 150px;
+    width: 250px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.admin-application-reject-wrapper input{
+    background-color: #7d8ada;
+    outline: none;
+    border: none;
+    padding: 2px 10px;
+    color: white;
+}
+.admin-application-reject-wrapper input:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+/*-------------------------------------------------------*/
+/*---------------------ADMIN REPORT--------------------*/
+.admin_report_wrapper{
+    padding: 120px 50px 50px 50px;
+}
+.admin_report_wrapper form{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    padding: 20px;
+}
+.admin_report_wrapper form input{
+    width: 250px;
+    margin-bottom: 10px;
+}
+.admin_report_wrapper form select{
+    width: 250px;
+}
+.admin_report_table_wrap{
+    margin: 50px 0px;
+    overflow: scroll;
+    max-height: 600px;
+    padding: 10px 0px;
+}
+#admin-report-form-btn{
+    background-color: #7d8ada;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 2px 10px;
+    margin-top: 15px;
+}
+#admin-report-form-btn:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+.admin_report_table_wrap table{
+    width: 1100px;
+}
+.admin_report_table_wrap table th{
+    text-align: left;
+    padding: 10px;
+    background-color: #7d8ada;
+    color: white;
+}
+.admin_report_table_wrap table td{
+    padding: 10px;
+}
+
+/*-------------------------------------------------------------------*/
+/*---------------------------ADMIN-CREATE USER--------------------------*/
+.admin-panel-create-user{
+    padding: 120px 50px 50px 50px;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    /*background-color: #e7eaff;*/
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.admin-panel-create-user form input{
+    height: 37px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.admin-panel-create-user form{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: white;
+}
+#admin-create-user-btn{
+    background-color: #7d8ada;
+    color: white;
+    outline: none;
+    border: none;
+}
+#admin-create-user-btn:hover{
+    background-color: #303F9F;
+    cursor: pointer;
+}
+/*------------------------------------------------------------------*/
+/*-------------------ADMIN CREATE NEW USER ADMIN PANEL--------------------*/
+.admin_panel_user_list_table{
+    margin: auto;
+}
+.admin_panel_user_list_table tr th{
+    background-color: #303F9F;
+}
+/*-----------------------------------------------------------------------*/
+
+/***************************MEDIA QUERY****************************/
+
+
+@media screen and (max-width: 700px) {
+    .dec-padding{
+        padding: 20px;
+    }
+    /*-------------------------*/
+    nav{
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .nav-resposnive-wrap{
+        display: block;
+    }
+    #nav-menu-btn{
+        display: block;
+    }
+    .home-nav-sub2{
+        display: none;
+        margin: 50px 0px;
+    }
+    nav .home-nav-sub2 a .nav-links{
+        margin-top: 15px;
+    }
+    .home-sec1-blur-cont-write{
+        font-weight: 700;
+        font-size: 24px;
+        color: white;
+    }
+    .home-sec1-blur-cont-write span{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .home-sec1-blur-cont-pic{
+        height: 50px;
+        width: 50px;
+    }
+    .home-sec1-blur-cont
+    {
+        display: block;
+        
+    }
+
+    /*------------------------*/
+    .home-notice{
+        width: 300px;
+        height: 320px;
+    }
+    /*---------------------------*/
+    .checkstatus-wrapper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /*------------------------------*/
+    .contact-wrapper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /*--------------------------*/
+    footer{
+        text-align: left;
+        display: block;
+    }
+    .footer-link{
+        margin-bottom: 10px;
+    }
+    .footer-links-wrap{
+        display: block;
+        text-align: left;
+    }
+    .footer-logo-wrap{
+        display: block;
+    }
+    /*-------------------------------*/
+    .booking-sec1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .guest-detail{
+        padding: 10px;
+        margin: 10px 0px;
+    }
+    .booking-sec1a,.booking-sec1b{
+        margin: 0px;
+    }
+    .admin-login{
+        height: 95vh;
+        width: 95vw;
+        box-sizing: border-box;
+    }
+    #admin-logout-btn{
+        margin-top: 20px;
+    }
+    /*---------------------------------------*/
+
+    .admin-dashboard-content1{
+        display: block;
+    }
+    .admin-dashboard-content1a,.admin-dashboard-content1b{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    /*----------------Admin Report-------------------*/
+    .admin_report_wrapper{
+        padding: 120px 20px 20px 20px;
+    }
+}
+
